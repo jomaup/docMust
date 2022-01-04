@@ -2,7 +2,7 @@
 
 const Missing = () => {
     return (
-        <div>Page introuvable</div>
+        <div className="title">Page introuvable</div>
     )
 }
 
