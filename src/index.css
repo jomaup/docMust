@@ -1,6 +1,15 @@
+* {
 
 
-/*--------------Header---------------*/
+ 
+}
+
+body {
+  min-height: 100vh;
+  min-width: 100%
+}
+
+
 .navbar{
   width: 100%;
   height: 80px;
@@ -45,16 +54,6 @@
 
 
 
-
-
-
-/* ----------------------FOOTER -------------------------*/
- .footer{
-
-  margin-top: 5%;
-  margin-left: 70%;
-}
-
 .loupe{
   margin-top: 20px;
   margin-left: 15%;
@@ -69,7 +68,12 @@
 }
 
 .sidebar{
+
+  flex:3;
+  height:42vh;
+
   height: calc(100vh - 50px);
+
   border: solid 2px black;
   width: 300px;
 }
@@ -81,7 +85,8 @@
 }
 
 .container{
-  display: flex;
+ 
+  height: 80vh;
 }
 
 .title{
@@ -95,16 +100,19 @@
   background-color: aliceblue;
   border-top: .2px solid rgb(190, 222, 250);
   width: 100%;
-  height: 150px;
+  height: 15vh;
   position: fixed;
+
+ 
   color: black;
-
 }
-
 .footerH1 {
+
   text-align: center;
-  margin: 60px auto
+  margin: 25px auto;
 }
+
+
 
 
 

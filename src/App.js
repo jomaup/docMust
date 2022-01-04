@@ -11,6 +11,30 @@ function App() {
   return (
     <div className="App">
 
+        <Header />
+
+      
+      
+        <Content />
+      
+      
+        <Footer />
+      
+        
+
+  
+
+          
+
+     
+    </div>
+      
+
+  
+
+  
+
+
      <Header />
      <Routes>
             <Route path="/" element={<Content />} >
@@ -22,6 +46,7 @@ function App() {
 
      
     </div>
+
   );
 }
 
