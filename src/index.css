@@ -1,12 +1,12 @@
 .navbar{
-  width: 1600px;
   height: 75px;
   padding: auto;
   margin: auto;
+  background-color: aliceblue;
 }
 
 .icon{
-  width: 200px;
+  width: 150px;
   float: left;
   height: 70px;
 }
@@ -21,7 +21,7 @@
 .search{
   width: 400px;
   float: left;
-  margin-left: 0px;
+  margin-left: 10%;
 }
 
 .srch{
@@ -34,6 +34,29 @@
   float: left;
   padding: 10px;
   border-radius: 5px ;
-  margin-top: 10%;
-  margin-left: 50%;
+  margin-top: 5%;
+  margin-left: 70%;
+}
+
+.loupe{
+  margin-top: 20px;
+  margin-left: 15%;
+  height: 35px;
+  width: 70px;
+}
+
+.logo{
+  margin-top: -20px;
+  height: 80px;
+  width: 100%;
+}
+
+.sidebar{
+  flex:3;
+  height: calc(100vh - 50px);
+}
+
+.sidebarWrapper{
+  padding: 20px;
+  background-color: yellowgreen;
 }

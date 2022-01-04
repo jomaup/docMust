@@ -1,16 +1,19 @@
-
+import img from "./logonav.png"
+import { TiZoom } from 'react-icons/ti';
+import Sidebar from "./Sidebar";
 
 const Header = () => {
     return (
         <div className="navbar">
             <div className="icon">
-                <h2 className="logo">MUST dev documentation</h2>
+                <img className="logo" src={img}></img>
             </div>
-            <div className="search">
+            <div className="search">   
                 <input className="srch" type="search" name=""/>
             </div>
+            <TiZoom className="loupe" />
         </div>
-
+        
     )
 }
 
