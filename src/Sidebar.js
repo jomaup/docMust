@@ -1,12 +1,14 @@
+import { Link } from "react-router-dom"
+
 
 export default function Sidebar() {
     return (
         <div className="sidebar">
             <div className="sidebarWrapper">
-                • Sidebar
+               <Link to="/"> • home </Link>
             </div>
             <div className="sidebarWrapper">
-               • Sidebar
+                <Link to="/about"> • home </Link>
             </div>
             <div className="sidebarWrapper">
                • Sidebar
