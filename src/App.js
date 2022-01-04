@@ -27,6 +27,7 @@ function App() {
 
   return (
     <div className="App">
+
      <Header />
      <Routes> 
             <Route path="/" element={<Content />} >
@@ -40,6 +41,7 @@ function App() {
       </Routes>
       <Footer />
     </div>
+
   );
 }
 
