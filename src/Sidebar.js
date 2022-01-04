@@ -11,10 +11,10 @@ export default function Sidebar() {
                 <Link to="/about"> • home </Link>
             </div>
             <div className="sidebarWrapper">
-               • Sidebar
+                <Link to="/jotest"> • home </Link>
             </div>
             <div className="sidebarWrapper">
-               • Sidebar
+                <Link to="/test"> • home </Link>
             </div>
             <div className="sidebarWrapper">
                • Sidebar
