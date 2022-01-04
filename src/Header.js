@@ -1,6 +1,5 @@
 import img from "./logonav.png"
 import { TiZoom } from 'react-icons/ti';
-import Sidebar from "./Sidebar";
 
 const Header = () => {
     return (
