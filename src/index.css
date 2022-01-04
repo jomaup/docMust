@@ -47,16 +47,23 @@
 
 .logo{
   margin-top: -20px;
-  height: 80px;
+  height: 75px;
   width: 100%;
 }
 
 .sidebar{
   flex:3;
   height: calc(100vh - 50px);
+  border: solid 2px black;
+  width: 300px;
 }
 
 .sidebarWrapper{
   padding: 20px;
   background-color: yellowgreen;
+  border: 1px solid black;
+}
+
+.container{
+  display: flex;
 }
