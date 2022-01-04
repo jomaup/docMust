@@ -4,15 +4,15 @@ import Sidebar from "./Sidebar";
 
 const Header = () => {
     return (
-        <div className="navbar">
-            <div className="icon">
-                <img className="logo" src={img}></img>
+            <div className="navbar">
+                <div className="icon">
+                    <img className="logo" src={img}></img>
+                </div>
+                <div className="search">   
+                    <input className="srch" type="search" name=""/>
+                </div>
+                <TiZoom className="loupe" />
             </div>
-            <div className="search">   
-                <input className="srch" type="search" name=""/>
-            </div>
-            <TiZoom className="loupe" />
-        </div>
         
     )
 }
