@@ -1,8 +1,8 @@
 .navbar{
-  height: 75px;
+  width: 100%;
+  height: 150px;
   padding: auto;
   margin: auto;
-  background-color: aliceblue;
 }
 
 .icon{
@@ -66,4 +66,14 @@
 
 .container{
   display: flex;
+}
+
+/* ----------------------FOOTER -------------------------*/
+.footer{
+  background-color: aliceblue;
+  border-top: .2px solid rgb(190, 222, 250);
+  width: 100%;
+  height: 150px;
+  position: fixed;
+  color: black;
 }
