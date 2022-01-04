@@ -10,31 +10,6 @@ import Documentation from "./Documentation";
 function App() {
   return (
     <div className="App">
-
-        <Header />
-
-      
-      
-        <Content />
-      
-      
-        <Footer />
-      
-        
-
-  
-
-          
-
-     
-    </div>
-      
-
-  
-
-  
-
-
      <Header />
      <Routes>
             <Route path="/" element={<Content />} >
@@ -43,7 +18,7 @@ function App() {
               <Route path="/about" element ={<About />} />
             </Route>
       </Routes>
-
+    <Footer />
      
     </div>
 
