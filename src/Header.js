@@ -1,5 +1,19 @@
 import img from "./logonav.png"
 import { TiZoom } from 'react-icons/ti';
+import { useNavigate } from "react-router-dom";
+/* 
+function Logout() {
+    let navigate = useNavigate();
+
+
+function handleLogOut() {
+    sessionStorage.setItem("userToken", '');
+    sessionStorage.clear();
+    history.push("/sigin");
+  }
+
+   */
+
 
 const Header = () => {
     return (
