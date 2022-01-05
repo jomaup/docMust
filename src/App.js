@@ -11,7 +11,6 @@ import Test from "./Test";
 import Login from "./Login";
 
 
-
 function setToken(userToken) {
   sessionStorage.setItem('token', JSON.stringify(userToken));
 }
@@ -28,6 +27,7 @@ function App() {
 
   return (
     <div className="App">
+
      <Header />
      <Routes> 
             <Route path="/" element={<Content />} >
@@ -38,8 +38,14 @@ function App() {
               <Route path="/test" element={<Test />} />
             </Route>
       </Routes>
-      <Footer />
+
+    <Footer />
+     
+
+     
+
     </div>
+
   );
 }
 
