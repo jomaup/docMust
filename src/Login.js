@@ -15,20 +15,25 @@ async function loginUser(credentials) {
 
 
 export default function Login({ setToken }) {
-    const [username, setUserName] = useState();
-    const [password, setPassword] = useState();
+  const [username, setUserName] = useState();
+  const [password, setPassword] = useState();
 
-    const handleSubmit = async e => {
-        e.preventDefault();
-        const token = await loginUser({
-          username,
-          password
-        });
-        setToken(token);
+    
+
+      const handleSubmit = async e => {
+        if(username.length>5 && password.length>7){
+          e.preventDefault();
+          const token = await loginUser({
+            username,
+            password
+          });
+          setToken(token);
+      }else{
+        
       }
+    }
 
-
-  return(
+    return(
     <div className="center">
         <form onSubmit={handleSubmit}>
             <img className="logolog" src={img}></img>
