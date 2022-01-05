@@ -11,11 +11,6 @@ import Test from "./Test";
 import Login from "./Login";
 
 
-
-function App() {
-  return (
-    <div className="App">
-
 function setToken(userToken) {
   sessionStorage.setItem('token', JSON.stringify(userToken));
 }
