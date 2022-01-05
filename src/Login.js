@@ -17,7 +17,7 @@ async function loginUser(credentials) {
 export default function Login({ setToken }) {
   const [username, setUserName] = useState();
   const [password, setPassword] = useState();
-
+  const [error] = "bdsf"
     
 
       const handleSubmit = async e => {
@@ -29,8 +29,9 @@ export default function Login({ setToken }) {
           });
           setToken(token);
       }else{
-        
+        error = "allright"
       }
+      
     }
 
     return(
@@ -39,7 +40,7 @@ export default function Login({ setToken }) {
             <img className="logolog" src={img}></img>
             <div className="inputbox">
                 <input type="text" onChange={e => setUserName(e.target.value)} />
-                <span>Email</span>
+                <span>username</span>
             </div>
             <div className="inputbox">
                 <input type="text" onChange={e => setPassword(e.target.value)}/> 
@@ -49,7 +50,9 @@ export default function Login({ setToken }) {
                 <button type="submit">Submit</button>
             </div>
         </form>
+        
     </div>
+    
   )
 }
 
